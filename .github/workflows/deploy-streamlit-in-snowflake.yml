@@ -23,7 +23,7 @@ jobs:
           # https://github.com/snowflakedb/snowflake-cli/issues/872
           SNOWFLAKE_ACCOUNT: ${{ secrets.SFSENORTHAMERICA.DEMO182 }}
           SNOWFLAKE_USER: ${{ secrets.ADMIN }}
-          SNOWFLAKE_PASSWORD: ${{ secrets.".ATqh48ziDL-4knxwfjdjNEJ-Li7wz" }}
+          SNOWFLAKE_PASSWORD: ${{ secrets..ATqh48ziDL-4knxwfjdjNEJ-Li7wz }}
           SNOWFLAKE_DATABASE: ${{ secrets.JB }}
           SNOWFLAKE_SCHEMA: ${{ secrets.PUBLIC }}
           SNOWFLAKE_WAREHOUSE: ${{ secrets.M }}
